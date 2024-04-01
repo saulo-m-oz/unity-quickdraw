@@ -1,0 +1,121 @@
+{
+    "name": "InputActions",
+    "maps": [
+        {
+            "name": "Combat",
+            "id": "7eeed8e2-a888-4b6f-abc0-de6e0d3bd5ce",
+            "actions": [
+                {
+                    "name": "Attack",
+                    "type": "Button",
+                    "id": "2d181f9e-fbb9-46b3-9947-641e1ed6ca29",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "420ccc68-d448-468f-9838-26f2fd745ad9",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "19f59c58-5f46-4498-bbd6-8762d3df2e6d",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "UI",
+            "id": "61f15889-300d-49b5-bfdb-869383f97cdc",
+            "actions": [
+                {
+                    "name": "ToggleFPS",
+                    "type": "Button",
+                    "id": "e035802a-3884-482c-b277-f2b7404b9bfd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Quit",
+                    "type": "Button",
+                    "id": "992430e6-4f9d-4bf7-8d7c-ab133ffe8987",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d9b2d75f-c28e-478e-a74d-2db632971348",
+                    "path": "<Keyboard>/f1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ToggleFPS",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bd3976d1-f944-4df9-9315-bbe6724b07c5",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Quit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Player 2",
+            "id": "539b1eff-819c-4249-ad5e-be85110e7bfd",
+            "actions": [
+                {
+                    "name": "Attack",
+                    "type": "Button",
+                    "id": "d0b2752c-ae61-4186-b747-a743af3c3e5f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "eed10e96-e113-461e-b6fb-369081704c9b",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
